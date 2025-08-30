@@ -2,7 +2,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/dnp9i3t6sexv9tpa?svg=true)](https://ci.appveyor.com/project/lisa3907/kakao-net)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/Kakao.Net.svg)](https://www.nuget.org/packages/kakao.net)
-[![License](https://img.shields.io/github/license/lisa3907/kakao.net.svg)](https://github.com/lisa3907/kakao.net/blob/master/LICENSE.txt)
+[![License](https://img.shields.io/github/license/lisa3907/kakao.net.svg)](https://github.com/lisa3907/kakao.net/blob/master/LICENSE.md)
 
 If you are a .Net C# programmer, kakao-net might be useful. We created kakao-net using open-source.
 
@@ -44,6 +44,6 @@ BTC 15DAoUfaCanpBpTs7VQBK8dRmbQqEnF9WG
 
 ### Contact
 
-home-page: http://www.odinsoftware.co.kr
+home-page: http://www.odinsoft.co.kr
 
-e-mail: help@odinsoftware.co.kr
+e-mail: help@odinsoft.co.kr

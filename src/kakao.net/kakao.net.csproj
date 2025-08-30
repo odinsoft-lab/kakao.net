@@ -1,11 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <OutputType>library</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Library</OutputType>
     <IsPackable>true</IsPackable>
-    <BlazorLinkOnBuild>false</BlazorLinkOnBuild>
-    <LangVersion>7.3</LangVersion>
+  <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
     <PackageId>Kakao.Net</PackageId>
     <Version>0.1.0</Version>
     <Authors>SeongAhn Lee</Authors>
@@ -16,21 +15,22 @@
     <RepositoryUrl>https://github.com/lisa3907/kakao.net</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>OdinSoft</Company>
-    <Copyright></Copyright>
-    <PackageLicenseExpression></PackageLicenseExpression>
     <Product>Kakao.Net</Product>
+    <!-- 최신 Razor 컴파일러 사용 -->
+    <RazorLangVersion>8.0</RazorLangVersion>
   </PropertyGroup>
-  
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Blazor" Version="0.9.0-preview3-19154-02" />
-    <PackageReference Include="Microsoft.AspNetCore.Blazor.Build" Version="0.9.0-preview3-19154-02" />
-  </ItemGroup>
 
   <ItemGroup>
-    <!-- .js/.css files will be referenced via <script>/<link> tags; other content files will just be included in the app's 'dist' directory without any tags referencing them -->
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <!-- 정적 자산은 차후 wwwroot 기반으로 이전 권장. 현 단계에선 빌드 통과를 위해 기존 리소스 임베드 항목은 보류/주석 처리. -->
+  <!--
+  <ItemGroup>
     <EmbeddedResource Include="content\**\*.js" LogicalName="blazor:js:%(RecursiveDir)%(Filename)%(Extension)" />
     <EmbeddedResource Include="content\**\*.css" LogicalName="blazor:css:%(RecursiveDir)%(Filename)%(Extension)" />
     <EmbeddedResource Include="content\**" Exclude="**\*.js;**\*.css" LogicalName="blazor:file:%(RecursiveDir)%(Filename)%(Extension)" />
   </ItemGroup>
+  -->
 
 </Project>

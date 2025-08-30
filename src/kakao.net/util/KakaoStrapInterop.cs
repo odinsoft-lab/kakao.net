@@ -12,10 +12,10 @@ namespace Kakao.Net.util
             JSRuntime = jsRuntime;
         }
 
-        public Task<bool> DrawMap(float latitude, float longitude)
+        public ValueTask<bool> DrawMap(double latitude, double longitude)
             => JSRuntime.InvokeAsync<bool>("kakaoMapInterop.drawMap", latitude, longitude);
 
-        public Task<bool> DrawTraffic(float latitude, float longitude)
+        public ValueTask<bool> DrawTraffic(double latitude, double longitude)
             => JSRuntime.InvokeAsync<bool>("kakaoMapInterop.drawTraffic", latitude, longitude);
     }
 }
