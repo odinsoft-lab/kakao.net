@@ -1,8 +1,8 @@
 # Kakao.Net — Blazor component library for Kakao Maps
 
-[![Build status](https://ci.appveyor.com/api/projects/status/dnp9i3t6sexv9tpa?svg=true)](https://ci.appveyor.com/project/lisa3907/kakao-net)
+[![Build status](https://ci.appveyor.com/api/projects/status/dnp9i3t6sexv9tpa?svg=true)](https://ci.appveyor.com/project/odinsoft-lab/kakao.net)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/Kakao.Net.svg)](https://www.nuget.org/packages/kakao.net)
-[![License](https://img.shields.io/github/license/lisa3907/kakao.net.svg)](https://github.com/lisa3907/kakao.net/blob/master/LICENSE.md)
+[![License](https://img.shields.io/github/license/odinsoft-lab/kakao.net.svg)](https://github.com/odinsoft-lab/kakao.net/blob/master/LICENSE.md)
 
 Kakao.Net is a Blazor component library that simplifies using Kakao Maps in .NET.
 The project started in 2019/03 and is currently being modernized on .NET 8.
@@ -15,7 +15,7 @@ For development, clone this repo and reference `src/kakao.net`.
 
 ## Documentation
 
-- Wiki: detailed guides live in the [Wiki](https://github.com/lisa3907/kakao-net/wiki).
+- Wiki: detailed guides live in the [Wiki](https://github.com/odinsoft-lab/kakao.net/wiki).
 - Demo: `docs/` contains GitHub Pages artifacts. It will be refreshed after sample migration.
 
 ## Usage
@@ -24,7 +24,7 @@ Coming soon: load the Kakao Maps SDK and interop via RCL static web assets and u
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before contributing. See [ROADMAP.md](./ROADMAP.md) and [TASK.md](./TASK.md) for plans and current tasks. More docs live in the [Wiki](https://github.com/lisa3907/kakao-net/wiki).
+Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before contributing. See [ROADMAP.md](./ROADMAP.md) and [TASK.md](./TASK.md) for plans and current tasks. More docs live in the [Wiki](https://github.com/odinsoft-lab/kakao.net/wiki).
 
 ## Support Developer Team
 
