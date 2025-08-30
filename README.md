@@ -1,39 +1,38 @@
-# kakao-net - BootStrap Library for .NET
+# Kakao.Net — Blazor component library for Kakao Maps
 
 [![Build status](https://ci.appveyor.com/api/projects/status/dnp9i3t6sexv9tpa?svg=true)](https://ci.appveyor.com/project/lisa3907/kakao-net)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/Kakao.Net.svg)](https://www.nuget.org/packages/kakao.net)
 [![License](https://img.shields.io/github/license/lisa3907/kakao.net.svg)](https://github.com/lisa3907/kakao.net/blob/master/LICENSE.md)
 
-If you are a .Net C# programmer, kakao-net might be useful. We created kakao-net using open-source.
-
-This project started in 2019/03. I plan to update it continuously.
+Kakao.Net is a Blazor component library that simplifies using Kakao Maps in .NET.
+The project started in 2019/03 and is currently being modernized on .NET 8.
 
 ## Install
 
-You can also clone it into your project directory from [kakao-net GitHub repository](https://github.com/lisa3907/kakao.net):
-
-```shell
-git clone https://github.com/lisa3907/kakao.net.git
-```
+NuGet package refresh is in progress. Track updates in the [ROADMAP](./ROADMAP.md) and [TASK](./TASK.md).
+For development, clone this repo and reference `src/kakao.net`.
 
 
 ## Documentation
 
-Read the [Manual](https://github.com/lisa3907/kakao-net/wiki) for more details.
+- Wiki: detailed guides live in the [Wiki](https://github.com/lisa3907/kakao-net/wiki).
+- Demo: `docs/` contains GitHub Pages artifacts. It will be refreshed after sample migration.
 
 ## Usage
 
+Coming soon: load the Kakao Maps SDK and interop via RCL static web assets and use the `Map` component in your pages. Full examples will be updated after sample migration.
+
 ## Contributing
 
-Please read the [CONTRIBUTING](https://github.com/lisa3907/kakao-net/blob/master/CONTRIBUTING.md) document before making changes that you would like adopted in the code. Also, read the [Manual](https://github.com/lisa3907/kakao-net/wiki) for more details.
+Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before contributing. See [ROADMAP.md](./ROADMAP.md) and [TASK.md](./TASK.md) for plans and current tasks. More docs live in the [Wiki](https://github.com/lisa3907/kakao-net/wiki).
 
 ## Support Developer Team
 
 We are investing a significant amount of time into the development of this library. If kakao-net made your life easier and you like it and want to help us improve it further or if you want to speed up new features and exchanges, please, support us with a tip. We appreciate all contributions!
 
-### Nuget
+### NuGet
 
- > Install-Package kakao-net -Version 0.1.0
+The legacy `0.1.0` package is deprecated. This section will be updated after the .NET 8 release.
 
 ### Crypto Donation
 
